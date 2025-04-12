@@ -7,7 +7,9 @@ edition = "2021"
 authors = ["anhkhoakz"]
 repository = "https://github.com/anhkhoakz/search-libraries"
 readme = "README.md"
-license-file = "LICENSE"
-
 
 [dependencies]
+reqwest = { version = "0.12.15", features = ["json"] }
+serde_json = "1.0.140"
+tokio = { version = "1.44.2", features = ["rt", "rt-multi-thread", "macros"] }
+serde = { version = "1.0.219", features = ["derive"] }
