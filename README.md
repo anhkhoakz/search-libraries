@@ -3,7 +3,7 @@
 <p><img src="https://i.imgur.com/N0ad6Az.png" width="200" alt="Project Icon"></p>
 
 # Search Libraries
-### This repository contains a collection of libraries for searching and retrieving information from various sources.
+### An application to search for libraries
 
 </div>
 
@@ -48,4 +48,4 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPLv2 License. See the [LICENSE](LICENSE) file for details.
