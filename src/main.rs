@@ -200,6 +200,8 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let result = match source.as_str() {
         "npm" => search_npm(Some(query), None).await,
         "docker" => search_docker(Some(query), None).await,
+        "jsdelivr" => search_jsdelivr(Some(query), None).await,
+        "crates" => search_crates(Some(query), None, None).await,
         _ => {
             eprintln!("Unsupported source: {}. Supported sources are 'npm' or 'docker'", source);
             return Ok(());
