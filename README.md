@@ -7,7 +7,7 @@
 
 </div>
 
-[![Rust](https://github.com/anhkhoakz/search-libraries/actions/workflows/rust.yml/badge.svg)](https://github.com/anhkhoakz/search-libraries/actions/workflows/rust.yml)
+[![Rust](https://img.shields.io/github/actions/workflow/status/anhkhoakz/search-libraries/rust.yaml?branch=main&style=for-the-badge&logo=rust&label=Rust)](https://github.com/anhkhoakz/search-libraries/actions/workflows/rust.yaml)
 
 ## Installation
 
